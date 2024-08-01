@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Form</title>
+</head>
+<body leftmargin="300">
+	<font face="arial" size="4" color="#000000">
+		<form>
+
+		    <label>Search:</label>
+		    <input type="search" name="search">	
+
+		    <br/><br/>			
+
+			<fieldset>
+			<legend>Enter Personal Details</legend>
+				<p>
+					<label>First Name:</label>
+					<input type="text" name="fname" placeholder="First Name">
+				</p>
+
+				<p>
+					<label>Middel Name:</label>
+					<input type="text" name="mname" placeholder="Middel Name">
+				</p>
+
+				<p>
+					<label>Last Name:</label>
+					<input type="text" name="lname" placeholder="Last Name">
+				</p>
+
+				<p>
+					<label>Gender:</label>
+					<input type="radio" name="gender" id="male"><label for="male">Male</label>
+					<input type="radio" name="gender" id="female"><label for="female">Female</label>
+				</p>
+
+				<p>
+					<label>DOB:</label>
+					<input type="date" name="date">
+				</p>
+
+				<p>
+					<label>Hobbies:</label>
+					<input type="checkbox" name="hobby" id="cricket"><label for="cricket">Cricket</label>
+					<input type="checkbox" name="hobby" id="cricket"><label for="cricket">Football</label>
+					<input type="checkbox" name="hobby" id="cricket"><label for="cricket">Kabadi</label>
+					<input type="checkbox" name="hobby" id="cricket"><label for="cricket">Tenish Ball</label>
+				</p>
+			</fieldset>
+			<fieldset>
+				<legend>Enter Account Details</legend>
+				<p>
+					<label>E-Mail:</label>
+					<input type="email" name="email" placeholder="Enter E-Mail">
+				</p>
+				<p>
+					<label>Password:</label>
+					<input type="password" name="password" placeholder="Enter Valid Password">
+				</p>
+				<p>
+					<label>Re-Enter Password:</label>
+					<input type="password" name="password" placeholder="Enter Valid Password">
+				</p>
+			</fieldset>
+			<fieldset>
+				<legend>Contact Details</legend>
+				<p>
+					<label>Address:</label>
+					<textarea rows="10" cols="85"></textarea>
+				</p>
+				<p>
+					<label>Address 1:</label>
+					<input type="text" name="address" size="40" placeholder="Address 1">
+				</p>	
+				<p>
+					<label>Address 2:</label>
+					<input type="text" name="address" size="40" placeholder="Address 2">
+				</p>
+				<p>
+					<label>Select Main Area:</label>
+					<select>
+						<option>Select:</option>
+						<option>Amreli</option>
+						<option>Utran</option>
+						<option>Nana Varachha</option>
+						<option>L.H.Road</option>
+						<option>Mota Varachha</option>
+					</select>
+				</p>	
+				<p>
+					<label>Select City:</label>
+					<select>
+						<option>Select:</option>
+						<option>Bhavnagar</option>
+						<option>Surat</option>
+						<option>Rajkot</option>
+						<option>Ahmedabad</option>
+						<option>Goa</option>
+					</select>
+				</p>
+				<p>
+					<label>Select Country:</label>
+					<select>
+						<option>Select:</option>
+						<option>USA</option>
+						<option>India</option>
+						<option>Canada</option>
+						<option>Australia</option>
+						<option>New Zeland</option>
+					</select>
+				</p>
+				<p>
+					<label>Pin Code:</label>
+					<input type="number" name="Pin Code">
+				</p>
+				<p>
+					<label>Contact No:</label>
+					<input type="number" name="contact no">
+				</p>
+			</fieldset>
+			<fieldset>
+				<legend>Upload Doccuments</legend>
+				<label>Upload File:</label>
+				<input type="file" name="file">
+			</fieldset>
+
+			<fieldset>
+					<legend>Range</legend>
+					<label>Range:</label>
+					<input type="range" name="range">
+			</fieldset>
+
+			<br/>
+
+			<input type="submit" name="Save" value="Save">
+			<input type="reset" name="Cancel">	
+
+		</form>
+	</font>
+</body>
+</html>
